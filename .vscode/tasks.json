@@ -7,9 +7,9 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${workspaceFolder}/src/*", // was ${file}
+                "${workspaceFolder}/src/*",
                 "-o",
-                "${workspaceFolder}/build/${fileBasenameNoExtension}.exe"
+                "${workspaceFolder}/bin/${fileBasenameNoExtension}.exe"
             ],
             "options": {
                 "cwd": "C:/msys64/ucrt64/bin"
